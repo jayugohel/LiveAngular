@@ -282,7 +282,7 @@ __webpack_require__.r(__webpack_exports__);
 class ApiUserService {
     constructor(_http) {
         this._http = _http;
-        this.apiUrl = "http://arjunbala.com/DFaculty/api.php/records/user";
+        this.apiUrl = "https://arjunbala.com/DFaculty/api.php/records/user";
     }
     getAllUser() {
         return this._http.get(this.apiUrl);
@@ -626,7 +626,7 @@ __webpack_require__.r(__webpack_exports__);
 class ApiFacultyService {
     constructor(_http) {
         this._http = _http;
-        this.apiUrl = "http://arjunbala.com/DFaculty/api.php/records/faculty";
+        this.apiUrl = "https://arjunbala.com/DFaculty/api.php/records/faculty";
     }
     getAllFaculties() {
         return this._http.get(this.apiUrl);
